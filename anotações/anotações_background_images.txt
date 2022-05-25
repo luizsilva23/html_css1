@@ -1,0 +1,87 @@
+	MÓDULO 3 - CAPÍTULO 19 - BACKGROUND IMAGE
+
+*css básico:
+	background-image: url();
+
+*configurar tamanho:
+	background-size: ;
+
+*configurar reptição:
+	background-repeat: repeat;
+	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+
+*configurar posição:
+	background-position: left top; (por exemplo)
+
+*como preencher a tela com a imagem:
+	body{
+		height: 100vh;
+		height: 100vh;
+		background-color: black;
+		background-image: url('');
+ 		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+---> propriedade 'background-size: cover' faz com que a imagem se ajuste a tela, havendo cortes.
+
+---> propriedade 'background-size: contain' faz com que a imagem seja exibida 100% na tela, sem cortes, mas isso não faz com que se adapte a tela.
+
+*para fixar a imagem no fundo e não quebrar quando estiver sob conteúdos muito grandes:
+	background-attachment: fixed;
+
+--->' backgroun-attachment: scroll; ' é a propriedade padrão.
+
+		// para fixar a imagem no fundo e não quebrar quando estiver sob conteúdos muito grandes - código completo //
+
+	body{
+            height: 100vh;
+            background-color: black;
+            background-image: url('');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+---> Shorthand - background:
+	
+	color > image > position > repeat > [size*] > attachment
+
+*as vezes o size n funciona, usar ele como uma declaração separada.
+
+
+
+	CENTRALIZAÇÃO VERTICAL DE CAIXAS
+
+*por padrão, o position de uma caixa é 'relative'. para fazer a centralização vertical, precisamos colocar a caixa que está por fora como 'relative' e a de dentro como 'absolute'.   ----->   Usando essas declarações, podemos dar a caixa de dentro os seguintes parâmetros: 'left' e 'right'com valores de porcentagem.   -----> a partir daí, usando a propriedade 'transform' e o parâmetro 'translate' para ajustar o ponto de centralização, as medidas vão ser em porcentagem, '-50%' e '-50%'.
+
+	#container{
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+	}
+
+
+	EFEITO PARALAX
+
+*Imagens de fundo que ficam travadas e o conteúdo vai rodando por cima.
+
+*principais declarações para conseguir esse efeito:
+	'background-size: cover;'
+    	'background-attachment: fixed;'

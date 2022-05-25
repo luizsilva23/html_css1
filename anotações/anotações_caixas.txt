@@ -1,0 +1,57 @@
+	MÓDULO 2 - CAPÍTULO 16 - AULA 2 - PRATICANDO O BOX MÓVEL
+
+---> User agent = navegador que exibe o site
+
+
+
+	MÓDULO 2 - CAPÍTULO 16 - AULA 3 - SHORTHANDS ÚTEIS
+
+---->'margin: auto' para centralizar a caixa
+
+---->Shorthand border: 'border: (width) (style) (color);'
+
+---->Shorthand padding: 'padding: (padding-top) (padding-right) (padding-bottom) (padding-left);' ---> Se todas forem iguais, pode usar uma medida só.
+
+---->Shorthand Margin: 'margin: (margin-top) (margin-right) (margin-bottom) (margin-left);'
+
+---->Shorthand outline: 'outline: (outline-width) (outline-style) (outline-color);'
+
+
+	MÓDULO 2 - CAPÍTULO 16 - AULA 4 - GROUPING TAGS SEMÂNTICAS
+
+* Antigamente usava-se as <div> </div> para delimitar as áreas do site, porém, hoje existem as grouping tags semânticas que tem a mesma função mas são melhores devido a facilidade de interpretação dos mecanismos de buscas e para a organização.
+
+*Grouping tags são <div>
+
+*Exemplos de Grouping Tags:
+-> header (cabeçalho do site)
+--> nav (links de menu)
+-> main (conteúdo principal)
+--> section (sessões do site0
+---> articles (semelhante a sessões, mais para textos e imagens, artigos)
+---> aside (informações extras)
+-> footer (rodapé)
+
+
+	MÓDULO 2 - CAPÍTULO 16 - AULA 6 - VÉRTICES ARREDONDADAS
+
+'border-radius'
+
+
+	MÓDULO 2 - CAPÍTULO 16 - BORDAS DECORADAS
+
+	   ' border: 11px solid transparent;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 27;
+            border-image-repeat: repeat; '
+
+ou usar a shorthand: 'border-image: url('borda.png') 27 repeat'
+
+
+
+
+
+
+
+

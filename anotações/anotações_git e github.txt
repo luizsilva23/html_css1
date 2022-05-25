@@ -1,0 +1,7 @@
+	MÓDULO 3 - CAPÍTULO 18 - AULA 1 - GIT E GITHUB
+
+--> Repositório local/remoto: local onde se guarda coisas.
+
+-->git: software gerenciador de versões. {repositório local}
+
+-->github: hospeda sites e guarda backups do projeto. {repositorio remoto} --> permite trabalhar em equipe.

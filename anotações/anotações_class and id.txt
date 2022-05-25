@@ -1,0 +1,24 @@
+MÓDULO 2 - CAPÍTULO 15 - AULA 1 - CSS ID
+
+---> Tudo que em HTML é 'id' em CSS é '#'
+---> Tudo que em HTML é 'class' em CSS é '.'
+
+* Usar o id para identificar um elemente específico.
+
+MÓDULO 2 - CAPÍTULO 15 - AULA 2 - CSS Class
+
+---> cada id só pode ser usado pra um item.
+---> para colocar o mesmo parâmetro em diferentes itens, usar 'class'.
+
+MÓDULO 2 - CAPÍTULO 15 - AULA 3 - PSEUDO-CLASSES
+
+--->':' equivale a pseudo-classes (pseudo-classes equivalem ao estado de um determinado elemento).
+
+MÓDULO 2 - CAPÍTULO 15 - AULA 4 - CSS PSEU-ELEMENTS
+
+---> exemplos de pseudo-classes: 'a:visited' = links visitados; 'a:hover' = faz algo quando passa o mouse por cima do elemento; 'a:active' = faz algo durante o click
+
+---> '::' Pseudo-elementos
+
+'>' símbolo de filho
+

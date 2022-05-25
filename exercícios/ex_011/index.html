@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou apenas aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+       <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <p>A tag <strong>PICTURE</strong> funciona para adicionar imagens dinâmicas. Dentro dela podemos colocar a imagens e os parâmetros de <em>source media type</em> para definir mais tamanhos da imagem, diminuindo ou aumentando de acordo com o tamnho da tela do usuário. Ajustar o parâmetro <em>max width</em> para definir os tamanhos máximos onde cada mudança de imagem deve ocorrer. <mark>Prestar atenção na ordem, os menores parâmetros devem vir primeiro no código.</mark></p>
+
+    <h1>Reproduzindo áudio</h1>
+    <audio src="midia/music.mp3" controls autoplay></audio>
+    <p>Para inserir um áudio, usar a tag <strong>AUDIO</strong> e configurar os parâmetros <em>controls</em>, para mostrar o botão de play, e o <em>autoplay</em>. Em alguns navegadores, esses parâmentros podem não funionar.</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/music.mp3" type="audio/mpeg">
+        <p>Seu navegador não carrega, baixe o arquivo para ouvir.</p>
+    </audio>
+    <p>Para adicionar outras opções de formato de áudio para o navegador tentar carregar, utilizar a tag <strong>AUDIO</strong> e inserir o parâmetro <em>source:src</em>, assim, podemos dar outras opções caso o navegador não seja compatível com a primeira. A ordem aqui também é importante, assim como os parâmetros de configuração: <em>preload</em>, para carregar previamente; <em>controls</em>, para mostrar o botão play e <em>altoplay</em>. em alguns navegadores, eles podem não funcionar. O parâmetro </p>
+    <p>Os formatos compatíveis com o HTML são o MP3, WAVE e OGG. Evitar os WAVE, pois são muito pesados.</p>
+</body>
+</html>

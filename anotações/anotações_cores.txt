@@ -1,0 +1,36 @@
+---------> Módulo 2 - Aula 1 - Capítulo 13 - CORES
+
+* Psicologia das Cores (Pesquisar depois) *
+* A harmonia visual de um site é importante para 'vender' o produto, prender o usuário e ter mais acessos.
+* Preto (fundo) com Branco (fonte) cansa a vista, evitar usar em páginas com muito texto.
+
+--------->Módulo 2 - Aula 2 - Capítulo 13 - Representação de Cores
+---
+
+--------->Módulo 2 - Aula 3 - Capítulo 13 - Harmonização de Cores
+
+*Comodidade Visual: Simetria - Harmonização de cor
+
+*Paleta de cores: Importante definir antes de começar o projeto e pesquisar bem o significado e a influência das cores. ----> Geralmente a paleta tem de 3 a 5 cores.
+
+*Cores análogas: Não tem muito contraste entre elas, mas são distinguíveis. As cores mais próximas no círculo cromático.
+
+*Cores análogas relacionadas: paletas formadas por dois tons vizinhos no círculo cromático + mais uma terceira que fica um tom depois das selecionadas anteriormente. 
+
+*Cores intercaladas: Uma cor de base e ir sempre pulando uma casa do círculo cromático.
+
+*Cores triádicas: as cores formam um triângulo equilatero no circulo.
+
+*Cores em Quadrado: Formam um quadrado no centro do círculo, pulando duas casas de cada vez.
+
+*Cores tetrádicas: Escolher duas cores e as complementares delas.
+
+*Monocromia: Usa só uma cor, mudando apenas a saturação e o brilho.
+
+
+---------> Modulo 2 - Aula 4 - Capítulo 13 - Harmonização de cores
+
+
+
+
+

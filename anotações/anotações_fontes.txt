@@ -1,0 +1,99 @@
+MÓDULO 2 - CAPÍTULO 14 - AULA 1 - TIPOGRAFIA pt1
+
+---
+
+MÓDULO 2 - CAPÍTULO 14 - AULA 2 - TIPOGRAFIA pt2
+
+*Anatomia do tipo
+	*tipo: cada uma das letras numa fonte
+
+----> Itens Métricos
+*"x" é a primeira letra criada de todas as fontes. Com a altura de 'x', a altura da escência de todas as letras é definida -----> altura x
+
+*A altura das maiúsculas é criada também proporcionalmente a altura de x. ----> altura das maísculas.
+
+*Altura de vazamento: Ascendente e descendente, passam da altura x.
+
+*Altura total: corpo
+
+
+----> Itens geométricos:
+
+*Serifa: serve para criar uma linha imaginária no cérebro que facilita a leitura das palavras. ---> mais aplicado em papel, na tela há divergências.
+
+*Hastes: partes da letra que são como barras
+
+*filete: hastes deitadas que unem duas barras
+
+*arco: partes encurvadas.
+
+*Esporão: como se fosse um pezinho da letra
+
+*Vértice: a ponta formada pelo encontro de duas hastes
+
+*Terminal: um elemento que não se prende em outro lugar
+
+----> Componentens anatômicos
+
+*Braço
+*Perna
+*pé: 
+*Espinha: S
+*Barriga: Junção de dois arcos
+*Olho:
+*Orelha:
+*cauda:
+
+
+-----> Glifo = uma letra: a e g t d g j
+-----> Todos os glifos de uma família: fonte
+-----> Família tipográfica: variações de uma mesma fonte --> light, normal, semibold, bold, extrabold. ---> essas variações não estão presentes em todas as fontes.
+
+
+*Categoria de Fontes:
+
+** Serifadas: boas para Impressão de texto em papel
+**Sans-serif : Textos muito longos em telas são ideais com essa categoria.
+**Monoespaçada (o espaço de cada caractere é o mesmo): 
+**Handwriting (imita escrita à mão):
+**Display, comemorativas (não tem obrigatoriamente nenhuma das característica das anteriores): mais artísticas, não se preocupam com facilitar a leitura, apenas com passar uma ideia. ex:. Góticas, letreiros de filmes.
+
+----> MÓDULO 2 - CAPÍTULO 14 - AULA 3 - FAMÍLIAS DE FONTES
+
+**Safe Font Combination: Adaptações para que a fonte do site rode em qualquer dispositivo. Sempre terminar a declaração no parâmetro da fonte com uma família genérica.
+
+
+----> MÓDULO 2 - CAPÍTULO 14 - AULA 4 - TAMANHO DA FONTE
+
+---
+
+----> MÓDULO 2 - CAPÍTULO 14 - AULA 5 - FONTES EXTERNAS
+
+*Para adicionar fontes externas, usar a regra @font-face na tag style. ---> configurar os parâmetros 'url' e 'format' ---> os formats podem ser: opentype (otf); truetype (ttf); embedded-opentype; truetype-aat [apple advanced typography].
+
+
+----> MÓDULO 2 - CAPÍTULO 14 - AULA 8 - CAPTURA DE FONTES
+
+---
+
+----> MÓDULO 2 - CAPÍTULO 14 - AULA 9 - WHATFONTIS
+
+*identificador de fontes em imagens (site)
+
+----> MÓDULO 2 - CAPÍTULO 14 - AULA 10 - ALINHAMENTOS
+
+--------------------------------------------
+
+*para transformar todas as letras em maiúsculas:
+	'text-transform: uppercase;'
+*para transformar todas as letras em maiúsculas mas manter as primeiras maiores:
+	'font-variante: small-caps;'
+
+
+
+*para configurar o espaçamento entre linhas:
+	'line-height: ;'
+
+
+
+
