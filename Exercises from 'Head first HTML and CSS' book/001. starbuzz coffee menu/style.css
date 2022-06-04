@@ -71,6 +71,8 @@ section h3{
 }
 
 section img{
+    display: block;
+    margin: auto;
     
 }
 
