@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+</head>
+<body>
+    <section>
+        <h1>Exercício 1</h1>
+        <div>
+            <h2>Meu Editor de Texto</h2>
+            <form action="#" method="post">
+                <textarea name="texto" id="texto" cols="40" rows="20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quas, cupiditate vel aperiam quia vitae! Aliquid tempora quisquam in placeat neque assumenda illum nesciunt minima, ullam quam? Quam, natus odit?
+                </textarea>
+                <br>
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h1>Exercício 2</h1>
+        <div>
+            <h2>Poema</h2>
+            <form action="#" method="post">
+                <input type="text" name="poema">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h1>Exercício 3</h1>
+        <div>
+            <form action="#" method="post" name="arquivo" enctype="multipart/form-data">
+                <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome"> <br>
+                <label for="arquivo">Arquivo:</label>
+                    <input type="file" name="arquivo" id="aquivo"> <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h1>Exercício 4</h1>
+        <div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Enviar e-mail para:</legend>
+                    <input type="checkbox" id="andre" name="andre" value="1">
+                        <label for="andre">André (andre@email.com)</label> <br>
+                    <input type="checkbox" id="eduardo" nome="eduardo" value="1">
+                        <label for="eduardo">Eduardo (eduardo@email.com)</label> <br>
+                    <input type="checkbox" id="fernanda" name="fernanda" value="1">
+                        <label for="fernanda">Fernanda (fernanda@email.com)</label> <br>
+                    <input type="checkbox" id="larissa" name="larissa" value="1">
+                        <label for="larissa">Larissa (larissa@email.com)</label> <br>
+                    <input type="checkbox" id="leticia" name="leticia" value="1">
+                        <label for="leticia">Letícia (leticia@email.com)</label> <br>
+
+                <button type="submit">Enviar E-mail</button>
+                           
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h1>Exercício 5</h1>
+        <form action="#" method="post">
+            <label for="name">Nome:</label> 
+                <input type="text" id="nome" name="nome"> <br>
+            <label for="lancamento">Lançamento:</label>
+                <input type="date" name="data" id="lancamento"> <br>
+            <label for="plataforma">Plataforma</label>
+                <select name="plataforma" id="plataforma">
+                    <option value="PS1">PS1</option>
+                    <option value="PS2">PS2</option>
+                    <option value="PS3">PS3</option>
+                    <option value="PS4">PS4</option>
+                </select> 
+                <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

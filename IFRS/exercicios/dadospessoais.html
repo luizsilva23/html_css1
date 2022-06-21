@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome"><br>
+            <label for="email">E-mail</label>
+                <input type="text" name="email" id="email"><br>
+            <label for="nascimento">Nascimento</label>
+                <input type="text" name="nascimento" id="nascimento">
+        </fieldset>
+        <fieldset>
+            <legend>Quais Cursos você fez?</legend>
+            <label for="html">HTML 5</label>
+                <input type="checkbox" id="html" name="html" value="1"><br>
+            <label for="css">CSS 3</label>
+                <input type="checkbox" id="css" name="css" value="1"><br>
+            <label for="javascript">JavaScript</label>
+                <input type="checkbox" id="javascript" name="javascript" value="1">
+        </fieldset>
+        <fieldset>
+            <legend>Em Qual Unidade Você Estuda?</legend>
+            <select name="escola">
+                <option value="0">Selecionar</option>
+                <option value="pernambuco">Pernambuco</option>
+                <option value="paraíba">Paraíba</option>
+                <option value="tocantins">Tocantins</option>
+                <option value="maranhao">Maranhão</option>
+            </select>
+        </fieldset>
+
+    </form>
+</body>
+</html>
